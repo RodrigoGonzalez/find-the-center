@@ -1,0 +1,9 @@
+{
+    "files": [
+        "./"
+    ],
+    "training": {
+        "command": "python --version",
+        "simulator": "openai.gym.unknown"
+    }
+}
