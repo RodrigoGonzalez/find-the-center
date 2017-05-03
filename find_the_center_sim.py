@@ -89,7 +89,5 @@ class BasicSimulator(bonsai.Simulator):
         return self.goal_count
 
 if __name__ == "__main__":
-    base_args = bonsai.parse_base_arguments()
     sim = BasicSimulator()
-    bonsai.run_with_url('find_the_center_sim', sim,
-                        base_args.brain_url, base_args.access_key)
+    bonsai.run_for_training_or_prediction("find_the_center_sim", sim)

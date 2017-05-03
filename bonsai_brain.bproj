@@ -3,7 +3,7 @@
         "./"
     ],
     "training": {
-        "command": "python --version",
-        "simulator": "openai.gym.unknown"
+        "command": "python find_the_center_sim.py",
+        "simulator": "bonsai.python"
     }
 }
