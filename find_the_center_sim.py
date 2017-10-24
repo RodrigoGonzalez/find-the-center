@@ -3,7 +3,6 @@ It can be used in this case to find the center between two numbers.
 """
 from __future__ import print_function
 import bonsai
-import sys
 from bonsai.simulator import SimState
 from random import randint
 
